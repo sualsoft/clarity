@@ -5,16 +5,18 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
-  --main_color: #ed7e37;
-  --secondary_color: #5d968f;
+  --main_color: #0c8599;
+  --secondary_color: #087f5b;
   --dark_color: #152137;
+  --gray: #343a40;
+  --light_green: #ebfbee;
   --primary_font: "Playfair Display", serif;
   --secondary_font: "Bree Serif", serif;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #343a40;
 }
 
 a {
@@ -109,7 +111,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 18px 0;
-  background: #dadada;
+  background: var(--light_green);
   min-height: 40px;
   margin-top: 80px;
 }
@@ -164,7 +166,7 @@ section {
   padding: 20px 0;
 }
 .header.header-scrolled {
-  background: rgb(38, 38, 38);
+  background: var(--light_green);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -403,7 +405,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
+  background: url(../img/hero-bg.jpg) top center no-repeat;
   background-size: cover;
 }
 .hero h1 {
@@ -413,7 +415,7 @@ section {
   color: var(--main_color);
 }
 .hero p {
-  color: #c3c3c3;
+  color: #343a40;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -482,7 +484,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background-color: rgb(40, 40, 40);
+  background-color: var(--light_green);
 }
 .about .content {
   background-color: #232323;
