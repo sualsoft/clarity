@@ -187,6 +187,12 @@ section {
   font-family: var(--secondary_font);
   margin-top: 3px;
 }
+@media (max-width: 527px) {
+  .header .logo span {
+    font-size: 18px;
+    line-height: 100%;
+  }
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -643,6 +649,9 @@ section {
   font-weight: 500;
   line-height: 32px;
   font-size: 24px;
+}
+.about2 h4 {
+  font-size: 20px !important;
 }
 .about2 .content ul {
   list-style: none;
