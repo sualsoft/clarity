@@ -176,24 +176,8 @@ section {
   align-items: center;
 }
 .header .logo img {
-  max-height: 50px;
-  margin-right: 6px;
+  width: 90px;
 }
-.header .logo span {
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  color: var(--secondary_color);
-  font-family: var(--secondary_font);
-  margin-top: 3px;
-}
-@media (max-width: 527px) {
-  .header .logo span {
-    font-size: 18px;
-    line-height: 100%;
-  }
-}
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -618,6 +602,44 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
   background: var(--main_color);
 }
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -676,6 +698,16 @@ section {
 }
 .about2 a:hover {
   color: var(--secondary_color);
+}
+.about2 .list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.about2 .list li img {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
 }
 /*--------------------------------------------------------------
 # Our Team
