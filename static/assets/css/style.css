@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   --main_color: #0c8599;
   --secondary_color: #087f5b;
+  --secondary-bright: #238f6f;
   --dark_color: #152137;
   --gray: #343a40;
   --light_green: #ebfbee;
@@ -174,9 +175,11 @@ section {
   line-height: 0;
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
+
 .header .logo img {
-  width: 100px;
+  height: 60px;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -704,6 +707,9 @@ section {
 }
 .about2 a:hover {
   color: var(--secondary_color);
+}
+.list {
+  list-style-type: disc !important;
 }
 .about2 .list li {
   display: flex;
