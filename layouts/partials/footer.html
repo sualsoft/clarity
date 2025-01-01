@@ -43,7 +43,12 @@
       </div>
 
       <div class="col-lg-6">
-        <form action="/contact.php" method="post" class="php-email-form">
+        <form
+          action="/contact.php"
+          method="post"
+          class="php-email-form"
+          onsubmit="return validateForm();"
+        >
           <div class="row gy-4">
             <div class="col-md-6">
               <input
@@ -84,15 +89,17 @@
                 required
               ></textarea>
             </div>
+            <div class="col-md-12">
+              <!-- Add reCAPTCHA widget -->
+              <div
+                class="g-recaptcha"
+                data-sitekey="6Lf0hLcmAAAAAAIWkdvRc-v1iWaiQ8wPK6cqQPbQ"
+                data-callback="enableSubmit"
+              ></div>
+            </div>
 
             <div class="col-md-12 text-center">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">
-                Your message has been sent. Thank you!
-              </div>
-
-              <button type="submit">Send Message</button>
+              <button type="submit" disabled>Send Message</button>
             </div>
           </div>
         </form>
@@ -120,6 +127,28 @@
 <script>
   function onSubmit(token) {
     document.getElementById("php-email-form").submit();
+  }
+</script>
+
+<!--Recaptch-->
+<script>
+  // Function to enable submit button after CAPTCHA is solved
+  function enableSubmit(response) {
+    document.getElementById("submit-button").disabled = false;
+  }
+
+  // Form validation function
+  function validateForm() {
+    // Get the CAPTCHA response
+    var response = grecaptcha.getResponse();
+
+    if (response.length === 0) {
+      // CAPTCHA not solved
+      alert("Please solve the CAPTCHA first");
+      return false;
+    }
+
+    return true;
   }
 </script>
 <!-- Vendor JS Files -->
