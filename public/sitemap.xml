@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50015/contact-us/</loc>
+    <loc>http://localhost:51742/contact-us/</loc>
   </url><url>
-    <loc>http://localhost:50015/categories/</loc>
+    <loc>http://localhost:51742/categories/</loc>
   </url><url>
-    <loc>http://localhost:50015/</loc>
+    <loc>http://localhost:51742/</loc>
   </url><url>
-    <loc>http://localhost:50015/about-us/</loc>
+    <loc>http://localhost:51742/about-us/</loc>
   </url><url>
-    <loc>http://localhost:50015/services/</loc>
+    <loc>http://localhost:51742/services/</loc>
   </url><url>
-    <loc>http://localhost:50015/services/assessment/</loc>
+    <loc>http://localhost:51742/services/assessment/</loc>
   </url><url>
-    <loc>http://localhost:50015/services/coaching/</loc>
+    <loc>http://localhost:51742/services/coaching/</loc>
   </url><url>
-    <loc>http://localhost:50015/services/treatment/</loc>
+    <loc>http://localhost:51742/services/treatment/</loc>
   </url><url>
-    <loc>http://localhost:50015/services/speaking/</loc>
+    <loc>http://localhost:51742/services/speaking/</loc>
   </url><url>
-    <loc>http://localhost:50015/tags/</loc>
+    <loc>http://localhost:51742/tags/</loc>
   </url>
 </urlset>

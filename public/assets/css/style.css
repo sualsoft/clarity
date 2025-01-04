@@ -396,7 +396,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero .img-fluid-2 {
-  width: 400px;
+  width: 550px;
 }
 .hero {
   width: 100%;
@@ -499,7 +499,10 @@ section {
   color: rgb(228, 228, 228);
 }
 .about p a {
-  color: #087f5b;
+  color: #00ffb3;
+}
+.about p a:visited {
+  color: #00eaff;
 }
 .about .btn-read-more {
   line-height: 0;

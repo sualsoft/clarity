@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home - Clarity Psychological Services on My New Hugo Site</title>
-    <link>http://localhost:50015/services/</link>
+    <link>http://localhost:51742/services/</link>
     <description>Recent content in Home - Clarity Psychological Services on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:50015/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51742/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home - Clarity Psychological Services</title>
-      <link>http://localhost:50015/services/assessment/</link>
+      <link>http://localhost:51742/services/assessment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50015/services/assessment/</guid>
+      <guid>http://localhost:51742/services/assessment/</guid>
       <description></description>
     </item>
     <item>
       <title>Home - Clarity Psychological Services</title>
-      <link>http://localhost:50015/services/coaching/</link>
+      <link>http://localhost:51742/services/coaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50015/services/coaching/</guid>
+      <guid>http://localhost:51742/services/coaching/</guid>
       <description></description>
     </item>
     <item>
       <title>Home - Clarity Psychological Services</title>
-      <link>http://localhost:50015/services/treatment/</link>
+      <link>http://localhost:51742/services/treatment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50015/services/treatment/</guid>
+      <guid>http://localhost:51742/services/treatment/</guid>
       <description></description>
     </item>
     <item>
       <title>Speaking - Clarity Psychological Services</title>
-      <link>http://localhost:50015/services/speaking/</link>
+      <link>http://localhost:51742/services/speaking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50015/services/speaking/</guid>
+      <guid>http://localhost:51742/services/speaking/</guid>
       <description></description>
     </item>
   </channel>
