@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:62368/contact-us/</loc>
+  </url><url>
+    <loc>http://localhost:62368/categories/</loc>
+  </url><url>
+    <loc>http://localhost:62368/</loc>
+  </url><url>
+    <loc>http://localhost:62368/about-us/</loc>
+  </url><url>
+    <loc>http://localhost:62368/services/</loc>
+  </url><url>
+    <loc>http://localhost:62368/services/assessment/</loc>
+  </url><url>
+    <loc>http://localhost:62368/services/coaching/</loc>
+  </url><url>
+    <loc>http://localhost:62368/services/treatment/</loc>
+  </url><url>
+    <loc>http://localhost:62368/services/speaking/</loc>
+  </url><url>
+    <loc>http://localhost:62368/tags/</loc>
+  </url>
+</urlset>
