@@ -499,10 +499,7 @@ section {
   color: rgb(228, 228, 228);
 }
 .about p a {
-  color: #00ffb3;
-}
-.about p a:visited {
-  color: #00eaff;
+  color: #087f5b;
 }
 .about .btn-read-more {
   line-height: 0;
