@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64825/contact-us/</loc>
+    <loc>http://localhost:50946/contact-us/</loc>
   </url><url>
-    <loc>http://localhost:64825/categories/</loc>
+    <loc>http://localhost:50946/categories/</loc>
   </url><url>
-    <loc>http://localhost:64825/</loc>
+    <loc>http://localhost:50946/</loc>
   </url><url>
-    <loc>http://localhost:64825/about-us/</loc>
+    <loc>http://localhost:50946/about-us/</loc>
   </url><url>
-    <loc>http://localhost:64825/services/</loc>
+    <loc>http://localhost:50946/services/</loc>
   </url><url>
-    <loc>http://localhost:64825/services/assessment/</loc>
+    <loc>http://localhost:50946/services/assessment/</loc>
   </url><url>
-    <loc>http://localhost:64825/services/coaching/</loc>
+    <loc>http://localhost:50946/services/coaching/</loc>
   </url><url>
-    <loc>http://localhost:64825/services/treatment/</loc>
+    <loc>http://localhost:50946/services/treatment/</loc>
   </url><url>
-    <loc>http://localhost:64825/services/speaking/</loc>
+    <loc>http://localhost:50946/services/speaking/</loc>
   </url><url>
-    <loc>http://localhost:64825/tags/</loc>
+    <loc>http://localhost:50946/tags/</loc>
   </url>
 </urlset>
